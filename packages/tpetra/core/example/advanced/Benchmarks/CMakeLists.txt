@@ -47,3 +47,9 @@ TRIBITS_ADD_EXECUTABLE(
   SOURCES CrsMatrixDenseRowUnpack.cpp
   COMM mpi
 )
+
+TRIBITS_ADD_EXECUTABLE(
+  commBuffers
+  SOURCES commBuffers.cpp
+  COMM mpi
+)
